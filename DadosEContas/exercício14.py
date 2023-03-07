@@ -1,4 +1,4 @@
-# Conversor de Temperaturas
+# Escreva um programa que converta uma temperatura digitada em °C e converta para °F
 
 print('Você deseja converter qual temperatura?')
 x = int(input('Digite 0 para Celsius ou digite 1 para Fahrenheit: '))
