@@ -1,3 +1,5 @@
+# Exercício 6
+
 x = int(input('Escolha um número: '))
 
 d = x * 2

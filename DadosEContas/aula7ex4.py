@@ -1,3 +1,5 @@
+# Exercício 7
+
 print('Vamos calcular a média entre suas duas notas')
 x = int(input('Primeira nota: '))
 y = int(input('Segunda nota: '))
