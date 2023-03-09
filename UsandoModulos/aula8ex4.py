@@ -1,7 +1,7 @@
 # Exercício 19
 # Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido
 
-from random import random, choice
+from random import choice
 
 a = input('Nome do primeiro aluno: ')
 b = input('Nome do segundo aluno: ')
@@ -10,7 +10,7 @@ d = input('Nome do quarto aluno: ')
 
 lista = [a, b, c, d]
 
-x = random.choice(lista)
+x = choice(lista)
 
 if x == 1:
     print('O aluno escolhido foi {}!'.format(a))
