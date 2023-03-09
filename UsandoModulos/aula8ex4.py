@@ -8,7 +8,9 @@ b = input('Nome do segundo aluno: ')
 c = input('Nome do terceiro aluno: ')
 d = input('Nome do quarto aluno: ')
 
-x = random.randint(1,4)
+lista = [a, b, c, d]
+
+x = random.choice(lista)
 
 if x == 1:
     print('O aluno escolhido foi {}!'.format(a))
