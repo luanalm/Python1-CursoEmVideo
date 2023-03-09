@@ -5,3 +5,5 @@
 x = float(input('Escolha um número Real: '))
 
 print('O número {}, tem a parte Inteira {}.'.format(x,int(x)))
+
+# tem como resolver esse exercício usando math.trunc(x) no lugar de int(x)

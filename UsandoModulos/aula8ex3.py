@@ -3,6 +3,10 @@
 
 import math
 
-x = float(input('O valor de um ângulo: '))
+ang = float(input('O valor de um ângulo: '))
 
-print('O ângulo {:.2f}, possui o seno {:.2f}, o cosseno {:.2f} e a tangente {:.2f}'.format(x, math.sin(x), math.cos(x), math.tan(x)))
+s = math.sin(math.radians(ang))
+c = math.cos(math.radians(ang))
+t = math.tan(math.radians(ang))
+
+print('O ângulo {:.2f}, possui o seno {:.2f}, o cosseno {:.2f} e a tangente {:.2f}'.format(ang, s, c, t))
